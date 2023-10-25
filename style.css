@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500);
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/box.css");
+
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.h1, .h2, .h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0;
+    font-size: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+body::after {
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; 
+    background-size: cover;
+    background-position: center;
+}
+
+
+@keyframes gradient {
+    0% {background: #2364AA;}
+    20% {background: #3DA5D9;}
+    40% {background: #73BFB8;}
+    60% {background: #FEC601;}
+    80% {background: #EA7317;}
+    100% {background: #2364AA;}
+}
+
+header {
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.2);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    z-index: 1;
+}
+
+.h1 {
+    text-justify: justify;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    margin-block: 0px;
+    bottom: 0px;
+    position: relative;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+#About_Us a {
+    color: white;
+    margin: 10px;
+}
+
+.banner {
+    padding: 300px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner, .h1  {
+    font-size: 50px;
+    text-align: left;
+    margin: 0px;
+}
+
+.banner, .h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 400px;
+    text-align: left;
+    margin: 0px;
+}
+
+.btn-blue {
+    background-color: #091540;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-blue-box {
+    background-color: #091540;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}   
+ 
+.price-box {
+    flex: 1;
+    margin: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin: 30px; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.price-box .btn-blue-box{
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.container .h1 {
+  width: 1500px;
+  margin: 100 auto;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.explanation{
+    font family:;
+}
+ .class{
+
+
+ }
